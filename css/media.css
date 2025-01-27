@@ -1,0 +1,55 @@
+@media (max-width: 992px) {
+  #headertop{
+    display: none;
+  }
+  .nav-mobile{
+    display: none;
+  }
+  .navbar-brand {
+    width: 25%;
+  }
+  .nav-link {
+    color: white;
+    font-size: medium;
+  }
+   .navbar-nav .nav-link.show {
+  color: white !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: white;
+}
+.nav-link:hover {
+  color:white;
+}
+.offcanvas{
+  background-color: #2F2F2F;
+}
+.rounded-circle {
+  padding: 10.5px;}
+  .text-section1{
+    margin-top: 500px;
+  }
+  .text{
+    margin-top: 2%;
+    padding: 5%;
+    margin-left: 0;
+  }
+
+.owl-prev{
+  margin-left: 30%;
+}
+.conect{
+  flex-wrap: wrap;
+}
+.hrlines  {
+  margin-left: 0!important;
+  margin-right: 0 !important;
+}
+.navbar-toggler{
+  margin: 15px;
+}
+.w-sm-100{
+  width: 100% !important;
+  margin-bottom: 5%;
+}
+}
